@@ -31,6 +31,9 @@ test("formats hours without losing fractions", () => {
   assert.equal(api.formatHours(50), "50 ч");
   assert.equal(api.formatHours(1.25), "1,25 ч");
   assert.equal(api.formatHours(0.75), "0,75 ч");
+  assert.equal(api.formatHours(5.333333), "5,33 ч");
+  assert.equal(api.formatHours(2.675), "2,68 ч");
+  assert.equal(api.formatHours(5.9999), "6 ч");
 });
 
 test("does not convert unrecognised strings", () => {

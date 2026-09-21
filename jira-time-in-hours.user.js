@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jira: учет времени в часах
 // @namespace    yunis-local-jira
-// @version      1.0.2
+// @version      1.0.3
 // @description  Локально показывает оценку, остаток и затраченное время в часах.
 // @match        https://jira.biz.zdravcity.rocks/browse/*
 // @run-at       document-idle
@@ -79,7 +79,7 @@
       return null;
     }
 
-    const rounded = Number(hours.toFixed(4));
+    const rounded = Math.round((hours + Number.EPSILON) * 100) / 100;
     return `${String(rounded).replace(".", ",")} ч`;
   }
 
