@@ -11,7 +11,7 @@
 ## Установка
 
 1. Установить расширение [Tampermonkey](https://www.tampermonkey.net/).
-2. Нажать [Установить userscript](https://raw.githubusercontent.com/Yunis1936/jira-time-hours/refs/heads/main/jira-time-in-hours.user.js).
+2. Нажать [Установить userscript](https://github.com/Yunis1936/jira-time-hours/releases/latest/download/jira-time-in-hours.user.js).
 3. В окне Tampermonkey подтвердить установку и обновить открытую карточку Jira.
 
 Рядом с каждым преобразованным значением появится `↺`: клик показывает исходный формат Jira, повторный клик возвращает часы.

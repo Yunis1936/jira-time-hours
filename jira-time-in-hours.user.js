@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Jira: учет времени в часах
 // @namespace    yunis-local-jira
-// @version      1.0.4
+// @version      1.0.5
 // @description  Локально показывает оценку, остаток и затраченное время в часах.
 // @match        https://jira.biz.zdravcity.rocks/browse/*
 // @run-at       document-idle
 // @grant        none
 // @homepageURL   https://github.com/Yunis1936/jira-time-hours
-// @downloadURL   https://raw.githubusercontent.com/Yunis1936/jira-time-hours/refs/heads/main/jira-time-in-hours.user.js
-// @updateURL     https://raw.githubusercontent.com/Yunis1936/jira-time-hours/refs/heads/main/jira-time-in-hours.user.js
+// @downloadURL   https://github.com/Yunis1936/jira-time-hours/releases/latest/download/jira-time-in-hours.user.js
+// @updateURL     https://github.com/Yunis1936/jira-time-hours/releases/latest/download/jira-time-in-hours.user.js
 // ==/UserScript==
 
 (function jiraTimeInHours() {
